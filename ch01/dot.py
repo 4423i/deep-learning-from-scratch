@@ -1,0 +1,13 @@
+import numpy as np
+A = np.array([[1,2],[3,4]])
+print(A)
+B = np.array([[3,0],[0,6]])
+print(B)
+print("A*B")
+print(A*B)
+print("dot")
+print(np.dot(A,B))
+C = np.array([[1,1,1],[0,1,1],[0,0,1]])
+D = np.array([1,1,0])
+print(C*D)
+print(B*C)
